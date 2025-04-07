@@ -39,12 +39,12 @@ The basic setup includes:
 Debouncing Explained
 
 Debouncing ensures that mechanical bounce from the button doesn't lead to multiple counts for a single press:
-  1.A time delay (e.g., 300ms) is introduced after        detecting a press.
-  2.This avoids misreads caused by signal fluctuations.
+  A time delay (e.g., 300ms) is introduced after        detecting a press.
+  This avoids misreads caused by signal fluctuations.
 
 Displaying on an LCD
 
 To display the counter value on an LCD, you can use:
-  1.A 16x2 LCD with an I2C module (easier wiring).
-  2.Install an LCD library for Python, such as Adafruit_CharLCD or a specific I2C-based LCD library.
-  3.Modify the code to print the count to the LCD screen    instead of just the serial monitor.
+  A 16x2 LCD with an I2C module (easier wiring).
+  Install an LCD library for Python, such as Adafruit_CharLCD or a specific I2C-based LCD library.
+  Modify the code to print the count to the LCD screen    instead of just the serial monitor.
